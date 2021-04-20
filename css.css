@@ -1,0 +1,188 @@
+
+/*------------
+    header
+ ----------- */
+.main-header{
+    background: #24272e;
+    opacity: 3px;
+}
+
+.main-header .header-row{
+    /* border: 2px solid rgb(94, 12, 170); */
+    height: 60px;
+    line-height: 60px;
+}
+
+
+.header-right .social-icon ,
+.footer-icon
+{
+
+    display: block;
+    /* border: 2px solid rgb(94, 12, 170); */
+    text-align: right;
+    list-style: none;
+    /* width: 100%; */
+
+
+}
+.header-right li:hover{
+
+    background-color: #92a8d1;
+
+}
+.social-icon li{
+    display: inline-block;
+    color: blue;
+    padding: 0 20px;
+    border-left: 1px solid #92a8d1;
+}
+.social-icon li a{
+    font-size: 16px;
+    color: yellow;
+    margin: 0 5px;
+}
+
+
+.L-text1{
+    color: blanchedalmond;
+    font-size: 24px ;
+    font-weight: bold;
+}
+.L-text2{
+    color: teal;
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+/* --------------
+slide section
+-------------- */
+.slide-sec{
+    /* background: #24272e; */
+    background: url(img.jpg);
+    height: 468px;
+}
+.slide-sec .slide-meterial{
+
+    padding-top: 82px;
+    width: 670px;
+    margin: 0 auto;
+    max-width: 100%;
+
+}
+.slide-sec h1{
+
+    font-size: 52px;
+    color:whitesmoke;
+}
+.slide-sec p{
+    padding-top: 56px;
+    font-size: 22px;
+    color: whitesmoke;
+}
+.slide-sec .bton {
+
+    margin-top: 38px;
+
+
+}
+.slide-sec .bton .bton1{
+    background-color: #83c129;
+    font-size: 18px;
+    margin: 0 10px;
+    border: none;
+}
+
+
+.slide-sec .bton .bton2{
+
+    background-color: #068fd5;
+    font-size: 18px;
+    border: none;
+    margin: 0 10px;
+}
+
+
+/* --------Featured--------- */
+.featured .feat{
+    font-size: 1.2rem;
+    color: #464b52;
+}
+.featured .texas{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.featured .wooden{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #454e5c;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.featured .openbook{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #c6c6c6;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.featured .vrem{
+    font-size: 1.5rem;
+    color: #c6cacd;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.featured .book{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #c6cacd;
+}
+.featured .twiter{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #c6cacd;
+}
+
+
+/* --------------------- */
+.bor{
+    border: 2px solid blue;
+}
+
+.cards p, .news .dates {
+    color: #c7cbd2;
+}
+
+
+
+/* -------Footer----- */
+.main-footer{
+    background: #24272e;
+}
+
+.footer-icon li{
+    display: inline-block;
+
+    padding: 5px 10px;
+    font-size: 1rem;
+}
+.footer-icon li a{
+    color: whitesmoke;
+}
+
+.copyright p{
+    color: #464b52;
+    text-align: right;
+    margin-top: 10px;
+
+}
+.footer-heading {
+    color: white;
+}
+.main-footer-left li {
+    list-style: none;
+}
+.main-footer-left  li a{
+    text-decoration: none;
+    color: #50555e;
+}
